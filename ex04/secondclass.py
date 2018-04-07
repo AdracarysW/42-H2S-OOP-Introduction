@@ -1,14 +1,13 @@
 
+from firstclass import First
 import random
 
-class Second:
+class Second(First):
 
-    def __init__(self):
-        name = input("Enter your name: ")
-        num = self.number()
-        super().__init__(name, num)
-
+    def __init__(self, name):
+        super().__init__(name, self.number())
 
     def number(self):
         print("Number method in SecondClass called")
-        random_num = random.randint(1, 6)
+        rand_num = random.randint(1, 6)
+        return rand_num

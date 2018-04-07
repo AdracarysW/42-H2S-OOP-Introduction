@@ -1,5 +1,6 @@
-from first import first
-from second import second
+
+from firstclass import First
+from secondclass import Second
 
 if __name__ == '__main__':
-	i = second()
+	s = Second("Amar")

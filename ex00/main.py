@@ -1,5 +1,5 @@
 
-from first import first
+from firstclass import First
 
 if __name__ == '__main__':
-    i = first()
+    f = First()

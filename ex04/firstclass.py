@@ -1,8 +1,10 @@
 
-class First:
+class First():
 
-    def __init__(self, name, num):
-        self.Hello(name, num)
+    def __init__(self, name, number):
+        self.name = name
+        self.Hello(number)
 
-    def Hello(self, name, random_num):
-        print("Hello {}, your number is {}".format(name, random_num))
+    def Hello(self, number):
+        print("Method Hello in FirstClass is called")
+        print("Hello {}, your number is {}".format(self.name, number))
