@@ -1,9 +1,5 @@
 # 42-H2S-OOP_Introduction
 
-A introductory to OOP projects for high schoolers
-
-It consist of six exercises for students to really practice.
-
 Ex00: Make your first class with a constructor that says "Hello World". You must instanciate your first class only in a main
 
 Ex01: Make your second class that will inherit from the first class and call the first class constructor that says "Hello World". You must instanciate the second class only in your main.
